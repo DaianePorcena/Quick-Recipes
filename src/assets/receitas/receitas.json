@@ -1,0 +1,801 @@
+{
+  "foods": [
+    { 
+      "id": "1",
+      "name":  "Omelete recheado",
+      "time": 15,
+      "rendimento": "1 Porção",
+      "cover": "https://www.kitano.com.br/wp-content/uploads/2019/07/SSP_1993-Omelete-de-pizza-mussarela-ore%E2%95%A0%C3%BCgano-e-tomate.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "2 ovos"
+        },
+        {
+          "id": "2",
+          "name": "2 fatias de queijo muçarela"
+        },
+        {
+          "id": "3",
+          "name": "6 tomates"
+        },
+        {
+          "id": "4",
+          "name": "sal"
+        },
+        {
+          "id": "5",
+          "name": "pimenta"
+        },
+        {
+          "id": "6",
+          "name": "orégano"
+        },
+        {
+          "id": "7",
+          "name": "½ colher de sopa de manteiga"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Leve uma panela ao fogo baixo e derreta a manteiga. "
+        },
+        {
+          "id": "2",
+          "text": "Junte os ovos e tempere com sal, pimenta e orégano a gosto. Mexa bem."
+        },
+        {
+          "id": "3",
+          "text": "Deixe dourar e vire o lado da omelete."
+        },
+        {
+          "id": "4",
+          "text": "Junte o recheio na metade do omelete."
+        },
+        {
+          "id": "5",
+          "text": "Dobre uma parte sobre a outra e deixe até o queijo derreter."
+        },
+        {
+          "id": "6",
+          "text": "Sirva em seguida a sua omelete recheada!"
+        }
+      ]
+    },
+    { 
+      "id": "2",
+      "name":  "Guacamole",
+      "time": 10,
+      "rendimento": "5 Porções",
+      "cover": "https://i.imgur.com/fULp0Xn.jpeg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1 abacate brasileiro médio"
+        },
+        {
+          "id": "2",
+          "name": "1 tomate grande sem sementes"
+        },
+        {
+          "id": "3",
+          "name": "1 cebola pequena"
+        },
+        {
+          "id": "4",
+          "name": "2 dentes de alho bem socados"
+        },
+        {
+          "id": "5",
+          "name": "1 maço de coentro"
+        },
+        {
+          "id": "6",
+          "name": "1 pimenta malagueta sem sementes"
+        },
+        {
+          "id": "7",
+          "name": "suco de 1 limão grande"
+        },
+        {
+          "id": "8",
+          "name": "azeite extra virgem"
+        },
+        {
+          "id": "9",
+          "name": "sal"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Amasse o abacate com um garfo. "
+        },
+        {
+          "id": "2",
+          "text": "Acrescente o alho socado, o suco de limão, sal e azeite a gosto e misture como um purê."
+        },
+        {
+          "id": "3",
+          "text": "Pique a cebola, o tomate e o coentro. Pique bem a pimenta."
+        },
+        {
+          "id": "4",
+          "text": "Sirva com chips, crackers, tacos, no burrito ou mesmo junto com arroz e feijão."
+        }
+      ]
+    },
+    { 
+      "id": "3",
+      "name":  "Batata recheada",
+      "time": 30,
+      "rendimento": "2 Porções",
+      "cover": "https://i.imgur.com/GsX6gtQ.jpeg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "2 batatas médias cozidas"
+        },
+        {
+          "id": "2",
+          "name": "sal a gosto"
+        },
+        {
+          "id": "3",
+          "name": "pimenta-do-reino a gosto"
+        },
+        {
+          "id": "4",
+          "name": "1 ovo"
+        },
+        {
+          "id": "5",
+          "name": "bacon frito a gosto"
+        },
+        {
+          "id": "6",
+          "name": "1/2 lata de creme de leite"
+        },
+        {
+          "id": "7",
+          "name": "cebolinha a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Retire a polpa das duas batatas cozidas, deixando uma cavidade em cada uma, reserve."
+        },
+        {
+          "id": "2",
+          "text": "Em um recipiente, misture as polpas da batata com sal, pimenta, ovo, queijo mussarela, bacon frito e creme de leite, misture bem."
+        },
+        {
+          "id": "3",
+          "text": "Em um tabuleiro, coloque as duas batatas e distribua em cada cavidade um pouco de queijo mussarela, a mistura das polpas, bacon frito."
+        },
+        {
+          "id": "4",
+          "text": "Acrescente mais um pouco de queijo mussarela por cima, bacon e finalize com cebolinha picada a gosto."
+        },
+        {
+          "id": "5",
+          "text": "Leve ao forno (230° C), por cerca de 20 minutos."
+        },
+        {
+          "id": "6",
+          "text": "Sirva a batata recheada!"
+        }
+      ]
+    },
+    { 
+      "id": "4",
+      "name":  "Arroz preguiçoso",
+      "time": 45,
+      "rendimento": "6 Porções",
+      "cover": "https://receitatodahora.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2016/10/arroz-de-pregui%C3%A7oso.jpg.webp",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "2 copos de arroz cru"
+        },
+        {
+          "id": "2",
+          "name": "4 e 1/2 copos americanos de água quente"
+        },
+        {
+          "id": "3",
+          "name": "1/2 copo de americano de azeite"
+        },
+        {
+          "id": "4",
+          "name": "1 colher de sopa de margarina"
+        },
+        {
+          "id": "5",
+          "name": "1 tablete de caldo de galinha"
+        },
+        {
+          "id": "6",
+          "name": "1 lata de milho escorrido"
+        },
+        {
+          "id": "7",
+          "name": "1 cebola picada"
+        },
+        {
+          "id": "8",
+          "name": "50g de azeitonas sem caroço cortadas em rodelas"
+        },
+        {
+          "id": "9",
+          "name": "100g de presunto cortado em quadradinho"
+        },
+        {
+          "id": "10",
+          "name": "100g de mussarela cortado em quadradinho"
+        },
+        {
+          "id": "11",
+          "name": "1 cenoura cortada em cubos"
+        },
+        {
+          "id": "12",
+          "name": "2 ovos"
+        },
+        {
+          "id": "13",
+          "name": "2 tomates firmes picados"
+        },
+        {
+          "id": "14",
+          "name": "sal e pimenta-do-reino a gosto"
+        },
+        {
+          "id": "15",
+          "name": "mussarela fatiada (para gratinar)"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Em uma tigela, dissolva o caldo de galinha na água quente."
+        },
+        {
+          "id": "2",
+          "text": "Acrescente o arroz e os demais ingredientes e mexa bem."
+        },
+        {
+          "id": "3",
+          "text": "Transfira a mistura para uma travessa que possa ir ao forno e cubra-a com papel alumínio."
+        },
+        {
+          "id": "4",
+          "text": "Leve ao forno médio preaquecido por 35 minutos."
+        },
+        {
+          "id": "5",
+          "text": "Leve ao forno médio preaquecido por 35 minutos."
+        },
+        {
+          "id": "6",
+          "text": "Retire do forno, cubra com as fatias de mussarela e volte ao forno para gratinar por mais 5 minutos."
+        },
+        {
+          "id": "7",
+          "text": "Sirva em seguida."
+        }
+      ]
+    },
+    { 
+      "id": "5",
+      "name":  "Tapioca de frigideira",
+      "time": 15,
+      "rendimento": "1 Porção",
+      "cover": "https://lh3.googleusercontent.com/_a2uRgk8OVc92mvLpKyMwzxYgcObvnfnMz4z25_rOgOA-ew3sG7siqK6t4q9rlf9dlotDZ94E9H_1hkC8IvEr6CaSSNq8Z0JUbfSf9Os",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1 xícara de polvilho doce"
+        },
+        {
+          "id": "2",
+          "name": "5 colheres de sopa de água filtrada"
+        },
+        {
+          "id": "3",
+          "name": "1 pitada de sal (opcional)"
+        },
+        {
+          "id": "4",
+          "name": "Leite condensado ou nutela"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Coloque o polvilho doce numa tigela e adicione a água."
+        },
+        {
+          "id": "2",
+          "text": "Misture com as mãos até obter uma farinha com pequenos flocos, que quebra facilmente."
+        },
+        {
+          "id": "3",
+          "text": "Se essa mistura de polvilho doce e água estiver derretendo muito, adicione um pouco mais de polvilho doce e mexa, misturando e apertando com as mãos, até chegar no ponto certo."
+        },
+        {
+          "id": "4",
+          "text": "Coloque 2-3 colheres de sopa dessa goma de tapioca numa peneira e, com as mãos, misture de modo a polvilhar sobre uma frigideira."
+        },
+        {
+          "id": "5",
+          "text": "CPeneire bem em torno de toda a frigideira, de modo a obter uma camada homogênea de tapioca, nem muito fina nem muito grossa.."
+        },
+        {
+          "id": "6",
+          "text": "Quando tiver terminado essa camada de tapioca, leve a frigideira ao fogo médio e deixe por uns 2-3 minutos."
+        },
+        {
+          "id": "7",
+          "text": "Quando a tapioca estiver durinha o suficiente, retire do fogo."
+        },
+        {
+          "id": "8",
+          "text": "Recheie a tapioca com Leite condensado ou nutela e enrole em seguida."
+        }
+      ]
+    },
+    { 
+      "id": "6",
+      "name":  "Panqueca de banana",
+      "rendimento": "6 Porções",
+      "time": 15,
+      "cover": "https://i.imgur.com/yziVqW6.png",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "2 bananas"
+        },
+        {
+          "id": "2",
+          "name": "2 ovos"
+        },
+        {
+          "id": "3",
+          "name": "1 colher (sopa) de açúcar"
+        },
+        {
+          "id": "4",
+          "name": "5 colheres (sopa) de farinha de trigo com fermento"
+        },
+        {
+          "id": "5",
+          "name": "1/2 xícara (chá) de leite"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Em uma vasilha, amasse as duas bananas com a ajuda de um garfo, junte os dois ovos, o açúcar e misture bem."
+        },
+        {
+          "id": "2",
+          "text": "Acrescente a farinha de trigo, uma colher de cada vez, misturando para não empelotar."
+        },
+        {
+          "id": "3",
+          "text": "Por último coloque o leite, mexendo até obter uma massa homogênea."
+        },
+        {
+          "id": "4",
+          "text": "Coloque uma concha da massa no centro de uma frigideira antiaderente, devagar para que a massa não se espalhe muito (se preferir pode ir moldando com a ajuda de uma colher)."
+        },
+        {
+          "id": "5",
+          "text": "Deixe dourar e com a ajuda de uma espátula vire e doure o outro lado."
+        },
+        {
+          "id": "6",
+          "text": "Pronto, é só servir acompanhada de chocolate derretido em cima ou ainda bacon frito e ovos, excelente pedida para o café da manhã!"
+        }
+      ]
+    },
+    { 
+      "id": "7",
+      "name":  "Strogonoff",
+      "time": 40,
+      "rendimento": "6 Porções",
+      "cover": "https://i.imgur.com/or7Phgi.jpeg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "400g de carne Patinho"
+        },
+        {
+          "id": "2",
+          "name": "2 xícaras de arroz branco"
+        },
+        {
+          "id": "3",
+          "name": "150g de molho de tomate"
+        },
+        {
+          "id": "4",
+          "name": "1 caixareme de leite"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Em uma panela, misture a carne, o alho, a maionese, o sal e a pimenta."
+        },
+        {
+          "id": "2",
+          "text": "Em uma frigideira grande, derreta a manteiga e doure a cebola."
+        },
+        {
+          "id": "3",
+          "text": "Junte o frango temperado até que esteja dourado."
+        },
+        {
+          "id": "4",
+          "text": "Adicione os cogumelos, o ketchup e a mostarda."
+        },
+        {
+          "id": "5",
+          "text": "Incorpore o creme de leite e retire do fogo antes de ferver."
+        },
+        {
+          "id": "6",
+          "text": "Sirva com arroz branco e batata palha."
+        }
+      ]
+    },
+    { 
+      "id": "8",
+      "name": "Strogonoff Frango",
+      "time": 60,
+      "rendimento": "8 Porções",
+      "cover": "https://i.imgur.com/ITYi8kH.png",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "700g de frango (patinho)"
+        },
+        {
+          "id": "2",
+          "name": "2 xícaras de arroz branco"
+        },
+        {
+          "id": "3",
+          "name": "1 pacote 150g de molho de tomate"
+        },
+        {
+          "id": "4",
+          "name": "1 caixa de creme de leite",
+          "amount": ""
+        },
+        {
+          "id": "5",
+          "name": "1 colher (chá) de ketchup",
+          "amount": ""
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta."
+        },
+        {
+          "id": "2",
+          "text": "Em uma frigideira grande, derreta a manteiga e doure a cebola."
+        },
+        {
+          "id": "3",
+          "text": "Junte o frango temperado até que esteja dourado."
+        },
+        {
+          "id": "4",
+          "text": "Adicione os cogumelos, o ketchup."
+        },
+        {
+          "id": "5",
+          "text": "Incorpore o creme de leite e retire do fogo antes de ferver."
+        },
+        {
+          "id": "6",
+          "text": "Sirva com arroz branco e batata palha."
+        }
+      ]
+    },
+    { 
+      "id": "9",
+      "name":  "Pizza calabresa",
+      "time": 120,
+      "rendimento": "6 Porções",
+      "cover": "https://i.imgur.com/MRaJXNH.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1 massa de pizza"
+        },
+        {
+          "id": "2",
+          "name": "1 pacote 250g de molho de tomate"
+        },
+        {
+          "id": "3",
+          "name": "350g de queijo"
+        },
+        {
+          "id": "4",
+          "name": "300g de calabresa"
+        },
+        {
+          "id": "5",
+          "name": "orégano à gosto"
+        },
+        {
+          "id": "6",
+          "name": "cebola à gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Passe o molho de toma em cima da massa com uma colher."
+        },
+        {
+          "id": "2",
+          "text": "Coloque o queijo sobre toda massa."
+        },
+        {
+          "id": "3",
+          "text": "Adicione a calabesa sobre o queijo."
+        },
+        {
+          "id": "4",
+          "text": "Coloque as cebolas cortadas em rodelas sobre a pizza."
+        },
+        {
+          "id": "5",
+          "text": "Adicione orégano (à gosto)."
+        },
+        {
+          "id": "6",
+          "text": "Leve ao forno quente em torno de 15 a 20 minutos."
+        }
+      ]
+    },
+    { 
+      "id": "10",
+      "name":  "Massa de Pastel",
+      "time": 30,
+      "rendimento": "12 Porções",
+      "cover": "https://i.imgur.com/HUEssUh.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1kg de farinha de trigo"
+        },
+        {
+          "id": "2",
+          "name": "1/2 xícara (chá) de óleo"
+        },
+        {
+          "id": "3",
+          "name": "1 colher sopa de sal"
+        },
+        {
+          "id": "4",
+          "name": "1 colher (chá) de vinagre"
+        },
+        {
+          "id": "5",
+          "name": "1 ovo"
+        },
+        {
+          "id": "6",
+          "name": "250ml de água"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Misture os ingredientes em uma tigela e amasse com as mãos."
+        },
+        {
+          "id": "2",
+          "text": "Sove bem a massa sobre uma superfície lisa enfarinhada."
+        },
+        {
+          "id": "3",
+          "text": "Utilize um rolo para esticar a massa e deixá-la na espessura desejada."
+        },
+        {
+          "id": "4",
+          "text": "Corte a massa no tamanho que quiser fazer os pastéis."
+        },
+        {
+          "id": "5",
+          "text": "Recheie de acordo com a sua preferência."
+        },
+        {
+          "id": "6",
+          "text": "Frite em óleo bem quente."
+        }
+      ]
+    },
+    { 
+      "id": "11",
+      "name":  "Pudim de leite condensado",
+      "time": 65,
+      "rendimento": "6 Porções",
+      "cover": "https://i.imgur.com/24tEgVo.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1 lata de Leite condensado"
+        },
+        {
+          "id": "2",
+          "name": "1 (mesmo tamanho do leite condesado) de Leite"
+        },
+        {
+          "id": "3",
+          "name": "3 Ovos"
+        },
+        {
+          "id": "4",
+          "name": "1 xícara (chá) de açúcar"
+        },
+        {
+          "id": "5",
+          "name": "1/2 xícara de água"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Primeiro, bata bem os ovos no liquidificador."
+        },
+        {
+          "id": "2",
+          "text": "Acrescente o leite condensado e o leite, e bata novamente."
+        },
+        {
+          "id": "3",
+          "text": "Derreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar."
+        },
+        {
+          "id": "4",
+          "text": "Coloque em uma forma redonda e despeje a massa do pudim por cima."
+        },
+        {
+          "id": "5",
+          "text": "Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água."
+        },
+        {
+          "id": "6",
+          "text": "Espete um garfo para ver se está bem assado."
+        },
+        {
+          "id": "7",
+          "text": "Deixe esfriar e desenforme."
+        }
+      ]
+    },
+    { 
+      "id": "12",
+      "name":  "Pizza frango com catupiry",
+      "time": 60,
+      "rendimento": "8 Porções",
+      "cover": "https://i.imgur.com/Tox2VkT.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "400g File peito de frango"
+        },
+        {
+          "id": "2",
+          "name": "4 colheres chá de Orégano"
+        },
+        {
+          "id": "3",
+          "name": "250g Catupiry"
+        },
+        {
+          "id": "4",
+          "name": "400g Queijo mussarela"
+        },
+        {
+          "id": "5",
+          "name": "Sal à gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Cozinhe o Filé de peito DaGranja Seara em uma panela com água e sal. Quando estiver pronto, retire, desfie e tempere com sal, pimenta e salsinha."
+        },
+        {
+          "id": "2",
+          "text": "Espalhe o molho de tomate na massa de pizza cobrindo todo o disco."
+        },
+        {
+          "id": "3",
+          "text": "Espalhe o frango desfiado pela pizza."
+        },
+        {
+          "id": "4",
+          "text": "Coloque o catupiry em um saco de confeiteiro ou um saco plástico com furo na ponta e espalhe o queijo pela pizza. Você pode distribuir em espiral ou em linhas horizontais e verticais."
+        },
+        {
+          "id": "5",
+          "text": "Leve a pizza de frango com catupiry ao forno preaquecido até a massa dourar levemente embaixo e o catupiry derreter."
+        }
+      ]
+    },
+    { 
+      "id": "13",
+      "name":  "Pudim de leite condensado",
+      "time": 65,
+      "rendimento": "5 Porções",
+      "cover": "https://i.imgur.com/24tEgVo.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "1 lata de Leite condensado"
+        },
+        {
+          "id": "2",
+          "name": "1 (mesmo tamanho do leite condesado) de Leite"
+        },
+        {
+          "id": "3",
+          "name": "3 Ovos"
+        },
+        {
+          "id": "4",
+          "name": "1 xícara (chá) de açúcar"
+        },
+        {
+          "id": "5",
+          "name": "1/2 xícara de água"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "1",
+          "text": "Primeiro, bata bem os ovos no liquidificador."
+        },
+        {
+          "id": "2",
+          "text": "Acrescente o leite condensado e o leite, e bata novamente."
+        },
+        {
+          "id": "3",
+          "text": "Derreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar."
+        },
+        {
+          "id": "4",
+          "text": "Coloque em uma forma redonda e despeje a massa do pudim por cima."
+        },
+        {
+          "id": "5",
+          "text": "Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água."
+        },
+        {
+          "id": "6",
+          "text": "Espete um garfo para ver se está bem assado."
+        },
+        {
+          "id": "7",
+          "text": "Deixe esfriar e desenforme."
+        }
+      ]
+    }
+  ]
+}
