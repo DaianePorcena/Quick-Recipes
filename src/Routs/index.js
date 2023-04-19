@@ -1,7 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import { StackRoutes } from "./stackRoutes";
-import { Favorites } from "../pages/Favorites";
 import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
@@ -13,7 +12,7 @@ export function Routes(){
                 headerShown: false,
                 tabBarHideOnKeyboard: true,
                 tabBarShowLabel: false,
-                tabBarActiveTintColor: "red",
+                tabBarActiveTintColor: "#C60024",
 
                 tabBarStyle:{
                     backgroundColor: "#FFF",
@@ -33,7 +32,7 @@ export function Routes(){
                     }
                 }}
             />
-            <Tab.Screen name="Favorites" component={Favorites} 
+            {/* <Tab.Screen name="Favorites" component={Favorites} 
                  options={{
                     tabBarIcon: ({ size, focused }) => {
                         if(focused){
@@ -43,7 +42,7 @@ export function Routes(){
                         return <Ionicons name="heart-outline" color="#C60024" size={size} />
                     }
                 }}
-            />
+            /> */}
         </Tab.Navigator>
     )
 }

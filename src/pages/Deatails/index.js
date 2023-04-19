@@ -1,8 +1,7 @@
 import { useLayoutEffect } from 'react';
-import { View, Text, StyleSheet, Pressable, ScrollView, Image } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, Image } from 'react-native'
 import { useRoute, useNavigation } from '@react-navigation/native'
 
-import { Entypo } from '@expo/vector-icons'
 
 import { Ingredientes } from '../../Components/ingredients';
 import { Instrucoes } from '../../Components/instructions';
@@ -14,15 +13,6 @@ export function Detail() {
     useLayoutEffect(() => {
         navigation.setOptions({
             title: route.params?.data ? route.params?.data.name : "Detalhes da receita",
-            headerRight: () => (
-                <Pressable onPress={() => console.log("TESTANDO")}>
-                    <Entypo
-                        name='heart'
-                        size={28}
-                        color='#FFFFFF'
-                    />
-                </Pressable>
-            )
         })
 
     }, [navigation])

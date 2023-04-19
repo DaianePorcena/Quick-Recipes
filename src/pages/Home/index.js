@@ -35,10 +35,6 @@ export function Home() {
         );
     }
 
-    // function handleSearch() {
-    //     console.log("Você digitou:")
-    //     console.log(inputValue)
-    // }
 
     function handleLoadMore() {
         if (loading || (page * LIMIT >= dataRecipes.foods.length)) {
