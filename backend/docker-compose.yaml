@@ -1,0 +1,35 @@
+version: '3'
+services:
+  home:
+    image: quickrecipes
+    build: ./dockerfiles/servicos/
+    hostname: home
+    ports:
+      - '5001:5000'
+    volumes:
+      - './home:/servico'
+    command: python3 servico.py
+  detalhes:
+    image: quickrecipes
+    build: ./dockerfiles/servicos/
+    hostname: detalhes
+    ports:
+      - '5002:5000'
+    volumes:
+      - './detalhes:/servico'
+    command: python3 servico.py
+  bancodados:
+    image: mysql
+    hostname: bancodados
+    ports:
+      - '6001:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+  arquivos:
+    image: arquivos
+    build: ./dockerfiles/nginx
+    volumes:
+      - './imagens:/usr/share/nginx/html'
+    hostname: arquivos
+    ports:
+      - '5004:80'
