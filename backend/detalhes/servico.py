@@ -18,25 +18,26 @@ def get_conexao_banco():
 
     return conexao
 
-@servico.route("/detalhes/<int:feed_id>")
-def get_detalhes(feed_id):
+@servico.route("/detalhes/<int:receitas_id>")
+def get_detalhes(receitas_id):
     
 
     conexao = get_conexao_banco()
     cursor = conexao.cursor(dictionary=True)
     cursor.execute(
-        "select text from instrucoes where instrucoes_id = " + str(feed_id)
+        "select text from instrucoes where instrucoes_id = " + str(receitas_id)
         
     )
     instrucoes = cursor.fetchall()
     
     cursor.execute(
-        "select name from ingredientes where ingredientes_id = " + str(feed_id)
+        "select name from ingredientes where ingredientes_id = " + str(receitas_id)
         
     )
     ingredientes = cursor.fetchall()
 
-    resultado = {'ingredientes':ingredientes, 'instrucoes':instrucoes}
+    resultado = {'ingredientes': [item['name'] for item in ingredientes], 'instrucoes': [item['text'] for item in instrucoes]}
+
     return jsonify(resultado)
 
 

@@ -1,17 +1,19 @@
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation } from "@react-navigation/native";
+import { ARQUIVO_URL } from "../../services/api"
 
 export function FoodList({ data }) {
     const navigation = useNavigation();
-
+    
     function handleNavigate(){
         navigation.navigate("Detail", {data: data})
+        
     }
     return (
         <TouchableOpacity style={styles.container} onPress={handleNavigate}>
             <Image
-                source={{ uri: data.cover }}
+                source={{uri: ARQUIVO_URL + data.image}}
                 style={styles.cover}
             />
             <View style={styles.info}>
@@ -39,11 +41,12 @@ const styles = StyleSheet.create({
         marginBottom: 14,
         marginHorizontal: '2%',
         width: '46%',
+        height: 280,
         borderRadius: 10,
     },
     cover: {
         width: '100%',
-        height: 180,
+        height: 210,
         borderTopRightRadius: 10,
         borderTopLeftRadius: 10,
         resizeMode: 'cover'
