@@ -8,6 +8,6 @@
 A aplicação ainda está em desenvolvimento. Confira as etapas:
 
 - [ ] Frontend Tela de Login
-- [ ] Frontend Tela de Feeds
-- [ ] Frontend Tela de Detalhes
+- [x] Frontend Tela de Feeds
+- [x] Frontend Tela de Detalhes
 - [ ] Frontend Tela de Favoritos
